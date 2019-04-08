@@ -20,18 +20,18 @@ $variable09 = 'false';
 
 $variable10 = null;
 
-function tipoDato($varN)
+function tipoDato($variable10)
 {
-    if ( $varN == true )
+    if ( $variable10 == true )
     {
-        echo 'el valor' . $varN . 'es verdadero.';
+        echo 'el valor' . $variable10 . 'es verdadero.';
     }
     else
     {
-        echo 'el valor' . $varN . 'es falso.';
+        echo 'el valor' . $variable10 . 'es falso.';
     }
 }
 
-tipoDato($variable01);
+tipoDato($variable10);
 
 ?>
