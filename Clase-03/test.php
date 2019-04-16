@@ -118,10 +118,5 @@
 
 //Recorriendo el array con un while
 
-// $indiceArray = 0;
-// while($indiceArray < count($arrayNum)) {
-//   echo $arrayNum[$indiceArray] !== 5 ? $arrayNum[$indiceArray] : "Se encontró un " . $arrayNum[$indiceArray];
-//   $indiceArray++;
-// }
 
 //Ejercicio 10
