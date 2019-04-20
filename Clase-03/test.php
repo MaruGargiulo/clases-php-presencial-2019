@@ -118,5 +118,49 @@
 
 //Recorriendo el array con un while
 
+// $posicionArray = 0;
+//
+// while($posicionArray < count($arrayNum)) {
+//   if($arrayNum[$posicionArray] !== 5) {
+//     echo $arrayNum[$posicionArray] . "<br>";
+//   } else {
+//     echo "Se encontró un " . $arrayNum[$posicionArray] . " en la posición $posicionArray del array";
+//     break;
+//   }
+//   $posicionArray++;
+// }
+
+//Recorriendo el array con un do/while
+
+// $posicionArray = 0;
+//
+// do{
+//   if($arrayNum[$posicionArray] !== 5) {
+//     echo $arrayNum[$posicionArray] . "<br>";
+//   } else {
+//     echo "Se encontró un " . $arrayNum[$posicionArray] . " en la posición $posicionArray del array";
+//     break;
+//   }
+//   $posicionArray++;
+// } while($posicionArray < count($arrayNum));
 
 //Ejercicio 10
+
+// $miArrayDeLetras = range("a","o");
+//
+// foreach( $miArrayDeLetras as $key => $value) {
+//   echo "En la posición $key se encuentra el valor $value <br>";
+// }
+
+//Ejercicio 11 y 12
+
+// $mascota = [
+//   "animal" => "Perro",
+//   "edad" => 5,
+//   "altura" => "0,60",
+//   "nombre" => "Sonic"
+// ];
+//
+// foreach($mascota as $posicion => $contenido) {
+//   echo "$posicion : $contenido <br>";
+// }
