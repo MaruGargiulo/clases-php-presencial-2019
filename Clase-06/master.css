@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+fieldset {
+  width: 760px;
+  margin: auto;
+  padding: 12px;
+  font-size: 1.2em;
+}
+.required {
+  color: red;
+  font-weight: bold;
+}
+.form-control {
+  border: solid 1px #dddddd;
+  background-color: #eeeeee;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.form-control input:not([type=checkbox]) {
+  display: block;
+  height: 40px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 15px;
+  font-size: 1em;
+  outline: none;
+}
+.form-control select {
+  width: 60%;
+  height: 40px;
+  font-size: 1em;
+  outline: none;
+}
+button {
+  background-color: #24c4d4;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.bienvenida {
+  width: 780px;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+.faq {
+  font-size: 1.3em;
+}
