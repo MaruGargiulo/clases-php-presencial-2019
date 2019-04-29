@@ -52,7 +52,7 @@ function validar($data) {
   return $errores;
 
 }
-$miPassHash = password_hash("hola", PASSWORD_DEFAULT);
+
 
 //Esta función me crea un array asociativo con los datos del usuario que valido
 function saveUser($data) {
